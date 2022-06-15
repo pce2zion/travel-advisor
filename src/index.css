@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(221, 67, 67);
+    padding: 20px 100px;
+    text-align: center;
+    color: bisque;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    margin: 50px;
+    display: flex;
+    width: 500px;
+}
+.hero:hover{
+   box-shadow:0px 2px 7px rgba(0,0,0,0.2) ;
+    
+}
+
+.hero .photos{
+    display: flex;
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;  
+}
+.heron {
+   padding:30px 20px;
+}
+.heron .join{
+    padding-bottom: 7px;
+ } 
+.heron .join .count{
+  color:rgb(117, 114, 114) ;
+  font-weight: 600;
+  padding-right: 15px;
+ }
+ .heron .join .counti{
+    background-color:rgb(255, 24, 24) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+ }
+ .heron .loc{
+     padding-bottom: 12px ;
+     color: rgb(41, 41, 41);
+ }
+ .heron .bold{
+    padding-bottom: 5px ;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+}
+.heron .desc{
+    padding-top: 5px ;
+    color: rgb(230, 3, 3);
+    font-size: 14px;
+    width: 500px;
+    line-height: 20px;
+    
+}
+.col{
+    display: flex;
+    margin-right: 50px;
+}
+.leaflet-container{
+    height: 800px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.details{
+    margin: 10px 50px;
+    width: fit-content;
+}
+.idk{
+    margin: 40px 20px;
+}
+.idk .ok{
+    padding-bottom: 12px ;
+     color: rgb(41, 41, 41);
+     font-size: x-large;
+     padding-top: 12px;
+}
+.idk h2{
+    color: rgb(110, 76, 76);
+  font-weight: 600;
+    font-size: large;   
+}
+.idk p{
+    width: 1000px;
+    margin-top: 15px;
+}
+.idk img{
+    width: 300px;
+    height: 300px;
+}
+.error{
+    margin: -30px 0px;
+   background-color: rgb(91, 178, 255);
+   padding:5px 5px;
+   width: 40px;
+   border-radius: 3px;
+    position: relative;
+    left: 1000px;
+
+}
+.error a{
+   text-decoration: none;
+   color: #fff;
+
+}
